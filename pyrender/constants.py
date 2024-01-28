@@ -54,6 +54,8 @@ class RenderFlags(object):
     FLAT = 4096
     """Render the color buffer flat, with no lighting computations."""
     SEG = 8192
+    """Render without multisampling
+    DISABLE_MULTISAMPLING = 16384
 
 
 class TextAlign:
